@@ -30,7 +30,9 @@ gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
 const WhyCISAssist = () => {
 
-
+  const handlePaymentRedirect = () => {
+    window.location.href = 'https://buy.stripe.com/4gweVt3S1dTy3sI144'; // Redirect to Stripe Checkout
+  };
   
   useGSAP(()=>{
     
