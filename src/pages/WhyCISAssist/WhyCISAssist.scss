@@ -165,6 +165,17 @@ text-align: center;
         }
         
       }
+      button {
+        background-color: #ff4400;
+        border-radius: 5rem;
+        padding:2px 32px;
+        color: #ecf3f2;
+        font-size: clamp(1.25rem, 1.25rem + ((1vw - 0.2rem) * 0.27), 1.5rem);
+        align-self: self-start;
+        margin-left: 4px;
+       
+
+      }
   
   
   
@@ -432,7 +443,10 @@ gap: 10px;
     font-size:16px ;
   }
 }
-
+button {
+  align-self: center;
+  width: 90%;
+}
 }
 
     }

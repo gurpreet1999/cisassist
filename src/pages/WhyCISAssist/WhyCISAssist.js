@@ -335,10 +335,10 @@ const WhyCISAssist = () => {
             />
           </svg>
         </figure>
-        <label>£200 plus VAT from rebate</label>
+        <label>£200 plus VAT from refund</label>
       </div>
      
-    
+    <button onClick={handlePaymentRedirect} >Pay now</button>
     
       </div>
      
@@ -442,7 +442,7 @@ const WhyCISAssist = () => {
       <p>£250 plus VAT upfront, or £350 plus VAT from rebate</p> */}
       
       
-      
+      <button onClick={handlePaymentRedirect} >Pay now</button>
       </div>
      
     
@@ -540,7 +540,7 @@ const WhyCISAssist = () => {
         </figure>
         <label>£300 plus VAT upfront, or £400 plus VAT from refund</label>
       </div>
-     
+      <button onClick={handlePaymentRedirect} >Pay now</button>
       
       </div>
     
@@ -629,6 +629,7 @@ const WhyCISAssist = () => {
 
 </div>
 </div>
+
 
       <div className="howItWork">
         <div className="cont">
