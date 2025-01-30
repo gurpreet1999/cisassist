@@ -30,9 +30,17 @@ gsap.registerPlugin(ScrollTrigger, TextPlugin);
 
 const WhyCISAssist = () => {
 
-  const handlePaymentRedirect = () => {
-    window.location.href = 'https://buy.stripe.com/4gweVt3S1dTy3sI144'; // Redirect to Stripe Checkout
+  const basicRebatePayment = () => {
+    window.location.href = 'https://buy.stripe.com/bIY14DewFg1Ge7m8wz';
+  }
+  const standardRebatePayment = () => {
+    window.location.href = 'https://buy.stripe.com/9AQ00z3S14iYgfu001'; // Redirect to Stripe Checkout
   };
+
+  const RebatePlusPayment = () => {
+    window.location.href = 'https://buy.stripe.com/dR63cL3S116M6EU9AC'; // Redirect to Stripe Checkout
+  };
+
   
   useGSAP(()=>{
     
@@ -340,7 +348,7 @@ const WhyCISAssist = () => {
         <label>£200 plus VAT from refund</label>
       </div>
      
-    <button onClick={handlePaymentRedirect} >Pay now</button>
+    <button onClick={basicRebatePayment} >Pay now</button>
     
       </div>
      
@@ -444,7 +452,7 @@ const WhyCISAssist = () => {
       <p>£250 plus VAT upfront, or £350 plus VAT from rebate</p> */}
       
       
-      <button onClick={handlePaymentRedirect} >Pay now</button>
+      <button onClick={standardRebatePayment} >Pay now</button>
       </div>
      
     
@@ -542,7 +550,7 @@ const WhyCISAssist = () => {
         </figure>
         <label>£300 plus VAT upfront, or £400 plus VAT from refund</label>
       </div>
-      <button onClick={handlePaymentRedirect} >Pay now</button>
+      <button onClick={RebatePlusPayment} >Pay now</button>
       
       </div>
     
